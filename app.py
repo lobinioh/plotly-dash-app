@@ -1,7 +1,7 @@
 # app.py
 import dash
 from dash import html
-from PlotIterator import PlotIterator  # jetzt sauber!
+from PlotIterator import PlotIterator  # nur hier importieren, keine Schleife
 
 app = dash.Dash(__name__)
 pi = PlotIterator()
