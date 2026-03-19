@@ -1,6 +1,7 @@
+# PlotIterator.py
 class PlotIterator:
     def __init__(self, data=None):
-        self.data = data if data is not None else [1, 2, 3, 4, 5]
+        self.data = data if data else [1, 2, 3, 4, 5]
         self.index = 0
 
     def __iter__(self):
@@ -13,7 +14,7 @@ class PlotIterator:
         self.index += 1
         return value
 
-# Nur Testcode hier, importiert nicht sich selbst!
+# Testcode nur hier, niemals selbst importieren!
 if __name__ == "__main__":
     pi = PlotIterator()
     for val in pi:
