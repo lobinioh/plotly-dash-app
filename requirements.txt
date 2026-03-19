@@ -1,0 +1,10 @@
+dash==4.0.0
+plotly==6.6.0
+pandas==3.0.1
+numpy==2.4.3
+waitress==3.0.2
+Flask<3.2,>=1.0.4
+Werkzeug<3.2
+requests
+retrying
+nest-asyncio
